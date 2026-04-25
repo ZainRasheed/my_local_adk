@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "include": [
+    "*.ts",
+    "llm_request_wrapper/lm_studio_llm.ts",
+    "agents/test_dummy_gemini_flash_agent.ts",
+    "agents/test_local_gemma4_agent.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

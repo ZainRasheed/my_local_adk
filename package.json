@@ -4,6 +4,10 @@
   "description": "",
   "main": "test_agent.ts",
   "scripts": {
+    "run": "tsx run_agent.ts",
+    "build": "tsc",
+    "adk": "adk",
+    "run_agent": "npx adk run agents/test_local_gemma4_agent.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +27,8 @@
     "yaml": "^2.8.3"
   },
   "devDependencies": {
-    "@google/adk-devtools": "^1.0.0"
+    "@google/adk-devtools": "^1.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
   }
 }
